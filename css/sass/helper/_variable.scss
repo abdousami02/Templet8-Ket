@@ -1,0 +1,24 @@
+
+// variable media query
+$sm: '(max-width: 576px)';
+$max-md: '(max-width: 768px)';
+$md: '(min-width: 768px)';
+$lg: '(min-width: 992px)';
+$max-lg: '(max-width: 992px)' ;
+$xl: '(min-width: 1200px)';
+
+
+// variable color
+$back-main: #00E1FF;
+$moyCont: 770px;
+
+
+//variabl static
+:root{
+    --main-color: #00E1FF;
+    --back-color: #f8f8f8;
+    --p-color: #777;
+
+    --font: 16px;
+    
+}

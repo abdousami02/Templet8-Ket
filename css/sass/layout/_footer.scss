@@ -1,0 +1,14 @@
+// star footer
+.footer{
+    padding: 10px;
+    background: #000;
+    text-align: center;
+    p{
+        font-size: 14px;
+        color: #fff;
+        span{
+            color: var(--main-color)
+        }
+    }
+}
+// end footer

@@ -1,0 +1,56 @@
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(#000, .6)
+}
+
+.special-heading{
+    text-align: center;
+    max-width: $moyCont;
+    margin: auto;
+    h3{
+        color: #000;
+        font-size: 32px;
+        font-weight: 300;
+        position: relative;
+        margin: 0;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 140px;
+            height: 2px;
+            background: var(--main-color);
+            left: calc(50% - 70px);
+            bottom: -15px;
+        }
+    }
+    p{
+        margin: 45px 0 85px;
+        color: var(--p-color)
+    }
+
+    &.black{
+        h3{
+            color: #fff
+        }
+        p{
+            color: #ccc;
+        }
+    }
+}
+
+.clearFix{
+    clear: both;
+}
+
+
+%social{
+    .fb{background: #1877f2}
+    .tw{background: #1da1f2}
+    .lin{background: #0a66c2;}
+    .ins{background-image: linear-gradient(to right top, #f40003, #b901b2 );}
+}
