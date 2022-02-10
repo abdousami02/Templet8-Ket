@@ -1,0 +1,26 @@
+
+- var section = ['Home','Services', 'Portofolio', 'About', 'News', 'Contact']
+
+mixin navBar
+  ul
+    each val in section
+      li: a(href='#')=val
+
+mixin heading(head, par, them='')
+  div(class="special-heading " + them )
+    h3= head
+    p= par
+
+mixin slider(image, head, par)
+  .box
+    .image
+      img(src='images/p' + image +'.jpg')
+    .text
+      h4= head
+      p= par
+
+mixin social
+  i(class="fab fa-facebook-f fb")
+  i(class="fab fa-twitter tw")
+  i(class="fab fa-linkedin-in lin")
+  i(class="fab fa-instagram ins")

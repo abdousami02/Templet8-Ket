@@ -707,9 +707,11 @@ img {
       .contact form input.submit:hover {
         color: var(--main-color); }
 
-.map iframe {
-  height: 400px;
-  width: 100%; }
+.map {
+  height: 400px; }
+  .map iframe {
+    height: 100%;
+    width: 100%; }
 
 .footer {
   padding: 10px;

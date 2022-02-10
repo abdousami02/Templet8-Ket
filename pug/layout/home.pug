@@ -1,0 +1,336 @@
+// star landing
+
+.landing
+	.overlay
+	.container
+		.text
+			h2 we Make Websites
+			button Start Tour
+
+
+// end landing
+
+// star services
+
+.services
+	.container
+		ul
+			li
+				i(class='far fa-desktop')
+				.text
+					h3 Web Design
+					p Lorem, ipsum dolor sit amet consectetur adipisicing.
+			li
+				i(class='far fa-pencil-ruler')
+				.text
+					h3 Web Design
+					p Lorem, ipsum dolor sit amet consectetur adipisicing.
+			li
+				i(class='far fa-cog')
+				.text
+					h3 Web Design
+					p Lorem, ipsum dolor sit amet consectetur adipisicing.
+			li
+				i(class='far far-camera')
+				.text
+					h3 Web Design
+					p Lorem, ipsum dolor sit amet consectetur adipisicing.
+
+// end services
+
+// star reponsive
+
+.resp
+	.container
+		.select
+			span.one Star Tour
+			span.two.active For All Devices
+		.feat
+			.box.one
+				.image
+					img(src='images/mobile.png' alt='')
+				.text
+					h4 Star Tour
+					p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores commodi cum repudiandae temporibus quisquam dolorem, eveniet necessitatibus a ut expedita quos unde minus laboriosam voluptatibus quo iure error.
+					button Start Tour
+			.box.two.active
+				.image
+					img(src='images/mobile.png' alt='')
+				.text
+					h4 Fully Responsive
+					p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores commodi cum repudiandae temporibus quisquam dolorem, eveniet necessitatibus a ut expedita quos unde minus laboriosam voluptatibus quo iure error.
+					button Start Tour
+
+
+// end responsive
+
+// star Design
+
+.design
+	.overlay
+	.container
+		+heading('Modern And Clean Design',
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolor possimus nemo corrupti harum excepturi unde qui, repellendus.',
+			'black')
+		.image
+			img(src='images/browser.png')
+// end Design
+
+// star timline
+
+.timeLine
+	.container
+		.content
+			.box
+				.time
+					h4 We Reach The Top
+					span September 2020
+				.action
+					h5 Kat is new brand
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ea commodi odio placeat, similique ipsa laudantium fugit magni distinctio natus, consequatur veritatis minus beatae praesentium blanditiis aliquam. Dolorem, amet laboriosam.
+					span Read More...
+
+			.clearFix
+			.box
+				.time
+					h4 Close To The Stars
+					span May 2021
+				.action
+					h5 Big thing are happing
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ea commodi odio placeat, similique ipsa laudantium fugit magni distinctio natus, consequatur veritatis minus beatae praesentium blanditiis aliquam. Dolorem, amet laboriosam.
+					span Read More...
+
+			.clearFix
+			.box
+				.time
+					h4 New office
+					span September 2021
+				.action
+					h5 We are moving
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ea commodi odio placeat, similique ipsa laudantium fugit magni distinctio natus, consequatur veritatis minus beatae praesentium blanditiis aliquam. Dolorem, amet laboriosam.
+					span Read More...
+			.clearFix
+
+// end timline
+
+// star Portfolio
+
+.portfolio
+	.container
+		+heading('Our Portfolio',
+		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, explicabo culpa. Numquam, magnam facere, sapiente ex quas distinctio consectetur saepe, perferendis maxime.')
+
+		ul
+			li.active All
+			li Web
+			li Photography
+			li Graphic Design
+
+		.content
+			.slide
+				-for (var i=1; i < 7; i++)
+					+slider(i,
+						'Awesome phot',
+						'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima accusantium.')
+				
+// end Portfolio
+
+// star Works
+
+.project
+	.overlay
+	.container
+		+heading('Nothing say batter, then a video',
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolor possimus nemo corrupti harum excepturi unde qui, repellendus.',
+			'black')
+		.text
+			p See Video
+			i(class='fas fa-play')
+
+.works
+	.container
+		ul
+			li
+				i(class='fal fa-briefcase')
+				span 3054
+				p completed Project
+
+			li
+				i(class='fal fa-mouse')
+				span 3054
+				p Completed Project
+
+			li
+				i(class='fal fa-envelope-open-text')
+				span 3054
+				p Completed Project
+
+			li
+				i(class='fal fa-comment-alt-dots')
+				span 3054
+				p Completed Project
+
+// end works
+
+// star team
+
+.team
+	.container
+		+heading('We ar The One',
+		'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat qui iure laborum, expedita, incidunt sunt dicta asperiores fuga cupiditate.')
+
+		.content
+
+			.box
+				.image
+					img(src="images/t1.png")
+					.name
+						h5 John Deo
+						p Graphic Design
+				p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur mollitia, dolores.
+				.social
+					+social
+			.box
+				.image
+					img(src="images/t2.png")
+					.name
+						h5 John Deo
+						p Graphic Design
+				p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur mollitia, dolores.
+				.social
+					+social
+			.box
+				.image
+					img(src="images/t3.png")
+					.name
+						h5 John Deo
+						p Graphic Design
+				p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur mollitia, dolores.
+				.social
+					+social
+			.box
+				.image
+					img(src="images/t4.png")
+					.name
+						h5 John Deo
+						p Graphic Design
+				p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur mollitia, dolores.
+				.social
+					+social
+			
+// end team
+
+// star about Us
+
+.about
+	.container
+		.content
+			.image
+				img(src='images/about.jpg' alt='')
+			.text
+				h3 About Ket
+				p Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque iusto culpa deleniti nam quisquam alias labore, dicta ab natus atque aut assumenda recusandae est velit inventore porro fuga esse officia.
+				p Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque iusto culpa deleniti nam quisquam alias labore, dicta ab natus atque aut assumenda recusandae est velit inventore porro fuga esse officia.
+
+// end about Us
+
+// star News
+
+.news
+	.container
+		+heading('Check our news',
+		'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, sequi commodi beatae dolorum hic voluptatem illum natus tenetur aperiam facilis dolores.')
+		.content
+			.box
+				.dat
+					span.day 25
+					span.month September
+				.desc
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, error beatae? Voluptate in reiciendis harum aliquid! Doloribus dignissimos.
+					a(href='#') Read More...
+			.box
+				.dat
+					span.day 15
+					span.month Jugn
+				.desc
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, error beatae? Voluptate in reiciendis harum aliquid! Doloribus dignissimos.
+					a(href='#') Read More...
+			.box
+				.dat
+					span.day 07
+					span.month April
+				.desc
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, error beatae? Voluptate in reiciendis harum aliquid! Doloribus dignissimos.
+					a(href='#') Read More...
+			.box
+				.dat
+					span.day 04
+					span.month May
+				.desc
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, error beatae? Voluptate in reiciendis harum aliquid! Doloribus dignissimos.
+					a(href='#') Read More...
+			
+// end News
+
+// star modern Design
+
+.flex
+	.overlay
+	.container
+		.image
+			img(src='images/device.png' alt='')
+		.text
+			h3 Modern Design
+			p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores facere similique asperiores incidunt animi, quas autem nihil, iste quae sint quidem fuga itaque ipsa sed deserunt ea magni aut tempore?
+
+// end modern Design
+
+// star testimonials
+
+.testim
+	.container
+		+heading('What Client Say',
+		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eius magni, velit aspernatur repellat optio quod illum assumenda hic! Accusamus.')
+
+		.content
+			.box
+				h4 Anya Stoen
+				span Graphic Design
+				p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus reprehenderit eos iste ut saepe.
+
+			.box
+				h4 Anya Stoen
+				span Graphic Design
+				p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus reprehenderit eos iste ut saepe.
+
+			.box
+				h4 Anya Stoen
+				span Graphic Design
+				p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus reprehenderit eos iste ut saepe.
+
+
+// end testimonials
+
+// star Contact
+
+.contact
+	.container
+		+heading('Contact Us',
+		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste inventore, quia nam assumenda quaerat illo tempore quo odit placeat.')
+
+		form(action='')
+			input(class='text' type='text' placeholder='Your Name')
+			input(class='text' type='email' placeholder='Your E-mail')
+			textarea(name='message' placeholder='Your Message')
+
+
+// end Contact
+
+// star map
+.map
+	iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103059.6097591948!2d1.179273520441036!3d36.17597567473053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12840bb9855da193%3A0x2edb38d4b5392a95!2sChettia!5e0!3m2!1sen!2sdz!4v1644179496786!5m2!1sen!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy")
+
+// end map
+
+
+
